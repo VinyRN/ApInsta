@@ -1,0 +1,62 @@
+# Build output folders
+**/bin/
+**/obj/
+**/publish/
+**/out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE settings
+.vscode/
+.idea/
+
+# Entity Framework Core migrations metadata
+**/Migrations/
+
+# Secrets and sensitive files
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Test.json
+
+# Logs
+*.log
+
+# Generated files
+*.generated.cs
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependency folders
+**/node_modules/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.lock
+*.cache
+*.pid
+
+# Visual Studio Code files
+.vscode/
+
+# JetBrains Rider files
+.idea/
+
+# NuGet packages
+**/packages/
+
+# Environment files
+.env
+.env.*
+
+# Other temporary or user-specific files
+*.log
+*.vs/

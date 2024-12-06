@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D8F431EC-2C54-4198-BC4E-CF3D76F96341}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApInsta.Application", "src\ApInsta.Application\ApInsta.Application.csproj", "{B58D4AA1-BE22-4F61-B0E9-FBD66FE31D98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApInsta.Infrastructure", "src\ApInsta.Infrastructure\ApInsta.Infrastructure.csproj", "{C2EFFE99-F245-4512-9D18-D0481BAEC1F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApInsta.API", "src\ApInsta.API\ApInsta.API.csproj", "{2ACEBD2E-76C3-4D3C-9706-D7D86857330F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CA96AF66-083E-411B-8259-35701BF59226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApInsta.Tests", "tests\ApInsta.Tests\ApInsta.Tests.csproj", "{FB92BB88-0109-4E61-BDDC-3E9A72302DB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApInsta.Domain", "src\ApInsta.Domain\ApInsta.Domain.csproj", "{BCBA989B-DF67-4796-9181-A160A3AA9430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApInsta.Service", "src\ApInsta.Service\ApInsta.Service.csproj", "{8FECF6CB-DE0B-4CE8-83B7-2E7A2DD8B767}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B58D4AA1-BE22-4F61-B0E9-FBD66FE31D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B58D4AA1-BE22-4F61-B0E9-FBD66FE31D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B58D4AA1-BE22-4F61-B0E9-FBD66FE31D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B58D4AA1-BE22-4F61-B0E9-FBD66FE31D98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2EFFE99-F245-4512-9D18-D0481BAEC1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2EFFE99-F245-4512-9D18-D0481BAEC1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2EFFE99-F245-4512-9D18-D0481BAEC1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2EFFE99-F245-4512-9D18-D0481BAEC1F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ACEBD2E-76C3-4D3C-9706-D7D86857330F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ACEBD2E-76C3-4D3C-9706-D7D86857330F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACEBD2E-76C3-4D3C-9706-D7D86857330F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ACEBD2E-76C3-4D3C-9706-D7D86857330F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB92BB88-0109-4E61-BDDC-3E9A72302DB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB92BB88-0109-4E61-BDDC-3E9A72302DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB92BB88-0109-4E61-BDDC-3E9A72302DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB92BB88-0109-4E61-BDDC-3E9A72302DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCBA989B-DF67-4796-9181-A160A3AA9430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCBA989B-DF67-4796-9181-A160A3AA9430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCBA989B-DF67-4796-9181-A160A3AA9430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCBA989B-DF67-4796-9181-A160A3AA9430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FECF6CB-DE0B-4CE8-83B7-2E7A2DD8B767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FECF6CB-DE0B-4CE8-83B7-2E7A2DD8B767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FECF6CB-DE0B-4CE8-83B7-2E7A2DD8B767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FECF6CB-DE0B-4CE8-83B7-2E7A2DD8B767}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B58D4AA1-BE22-4F61-B0E9-FBD66FE31D98} = {D8F431EC-2C54-4198-BC4E-CF3D76F96341}
+		{C2EFFE99-F245-4512-9D18-D0481BAEC1F3} = {D8F431EC-2C54-4198-BC4E-CF3D76F96341}
+		{2ACEBD2E-76C3-4D3C-9706-D7D86857330F} = {D8F431EC-2C54-4198-BC4E-CF3D76F96341}
+		{FB92BB88-0109-4E61-BDDC-3E9A72302DB8} = {CA96AF66-083E-411B-8259-35701BF59226}
+		{BCBA989B-DF67-4796-9181-A160A3AA9430} = {D8F431EC-2C54-4198-BC4E-CF3D76F96341}
+		{8FECF6CB-DE0B-4CE8-83B7-2E7A2DD8B767} = {D8F431EC-2C54-4198-BC4E-CF3D76F96341}
+	EndGlobalSection
+EndGlobal
